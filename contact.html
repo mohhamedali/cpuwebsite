@@ -1,0 +1,138 @@
+<!-- contact.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Information</title>
+    <style>
+        body {
+            background-color: #ecf0f1; /* Light gray background color */
+            color: #2c3e50; /* Dark gray text color */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column; /* Set the direction to column */
+            align-items: center;
+        }
+
+        nav {
+            background-color: #3498db; /* Blue background color for the navigation */
+            padding: 20px;
+            display: flex;
+            flex-direction: row; /* Set the direction to row */
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+        }
+
+        nav .table-of-contents {
+            background-color: #e74c3c; /* Red color for the table of contents */
+            border: 2px solid #c0392b; /* Slightly darker red for the border */
+            padding: 10px;
+            text-align: center;
+            margin-bottom: 10px;
+            display: flex;
+            flex-direction: row; /* Set the direction to row */
+            border-radius: 8px;
+        }
+
+        nav button {
+            color: #fff; /* White text color for buttons */
+            background-color: #2980b9; /* Darker blue background for buttons */
+            border: none;
+            padding: 10px;
+            margin-right: 10px;
+            border-radius: 4px;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 3em; /* Larger font size for title */
+            margin: 0;
+            font-style: italic; /* Italicize the title */
+            color: #e74c3c; /* Red color for the title */
+        }
+
+        .content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .section-container {
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            max-width: 800px; /* Adjust the maximum width as needed */
+        }
+
+        .section {
+            margin-top: 20px;
+            text-align: center;
+            padding: 15px;
+            border-radius: 8px;
+            border: 2px solid #2c3e50; /* Dark gray border for the section */
+        }
+
+        .club-info {
+            background-color: #3498db; /* Blue background color for the club info section */
+            font-style: italic; /* Italicize the font for the club info section */
+            font-size: 1.2em; /* Adjust the font size for the club info section */
+        }
+
+        .contact-info {
+            max-width: 80%; /* Adjust the width of the paragraph */
+            border: 2px solid #e74c3c; /* Red border for the contact info section */
+        }
+
+        .linkedin-info {
+            margin-top: 20px;
+            font-style: italic; /* Italicize the font for the LinkedIn info */
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="table-of-contents">
+            <button onclick="location.href='index.html'">Home</button>
+            <button onclick="location.href='about.html'">About Us</button>
+            <button onclick="location.href='contact.html'">Contact Information</button>
+            <button onclick="location.href='projects.html'">Projects</button>
+            <button onclick="location.href='members.html'">Members List</button>
+            <button onclick="location.href='devguidejb.html'" target="_blank">DevGuideJB</button>
+        </div>
+    </nav>
+    <header>
+        <h1>Contact Information</h1>
+    </header>
+    <div class="content">
+        <div class="section-container">
+            <!-- Club Location and Meeting Times Section -->
+            <div class="section club-info">
+                <div class="section-title">Club Location & Meeting Times</div>
+                <p>SUNY Oneonta, Fitzelle Room 251</p>
+                <p>Thursdays Biweekly @ 5:30 pm</p>
+            </div>
+
+            <!-- Primary Contact Section -->
+            <div class="section contact-info">
+                <div class="section-title">Primary Contact</div>
+                <p>Mohhamed Ali</p>
+                <p>Oneonta Email: ALIMN959@Oneonta.edu</p>
+                <p>Gmail: Mohhameda642@gmail.com</p>
+                <p class="linkedin-info"><a href="https://www.linkedin.com/in/mohhamed-ali-a9948927a/" target="_blank">LinkedIn</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,139 @@
+<!-- projects.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CPU Club Projects</title>
+    <style>
+        body {
+            background-color: #376853;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 20px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+        }
+
+        nav .table-of-contents {
+            background-color: rgb(233, 72, 23);
+            border: 2px solid #fff;
+            padding: 10px;
+            text-align: center;
+            margin-right: 10px;
+            border-radius: 8px;
+        }
+
+        nav button {
+            color: #fff;
+            background-color: #555;
+            border: none;
+            padding: 10px;
+            margin-right: 10px;
+            border-radius: 4px;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin: 0;
+            font-style: italic;
+            color: #fff;
+        }
+
+        .content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .projects-section,
+        .documents-section {
+            background-color: #1a1a1a;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+            max-width: 70%;
+            margin: 0 auto;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: #e74c3c;
+        }
+
+        .documents-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .document-item {
+            margin-bottom: 10px;
+        }
+
+        .documents-list a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        .documents-list a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="table-of-contents">
+            <button onclick="location.href='index.html'">Home</button>
+            <button onclick="location.href='about.html'">About Us</button>
+            <button onclick="location.href='contact.html'">Contact Information</button>
+            <button onclick="location.href='projects.html'">Projects</button>
+            <button onclick="location.href='members.html'">Members List</button>
+            <button onclick="location.href='devguidejb.html'">DevGuideJB</button>
+        </div>
+    </nav>
+    <header>
+        <h1>CPU Club Projects</h1>
+    </header>
+    <div class="content">
+        <div class="projects-section">
+            <h2>Projects made by the CPU club</h2>
+            <!-- Add your project details here -->
+        </div>
+
+        <div class="documents-section">
+            <h2>CPU Documents</h2>
+            <ul class="documents-list">
+                <li class="document-item"><a href="https://connect.oneonta.edu/organization/cpucomputerprogrammersunited/documents/view/2283270">CPU Constitution (2023)</a></li>
+                <li class="document-item"><a href="https://connect.oneonta.edu/organization/cpucomputerprogrammersunited/documents/view/2283371">CPU Club Overview Spring 2024</a></li>
+                <!-- Add more document items as needed -->
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,108 @@
+<!-- about.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About CPU</title>
+    <style>
+        body {
+            background-color: #376853; /* Dark green background color */
+            color: #fff; /* White text color */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column; /* Set the direction to column */
+            align-items: center;
+        }
+
+        nav {
+            background-color: #333; /* Dark background color for the navigation */
+            padding: 20px;
+            display: flex;
+            flex-direction: row; /* Set the direction to row */
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+        }
+
+        nav .table-of-contents {
+            background-color: #f39c12; /* Orange color for the table of contents */
+            border: 2px solid #e67e22; /* Slightly darker orange for the border */
+            padding: 10px;
+            text-align: center;
+            margin-bottom: 10px;
+            display: flex;
+            flex-direction: row; /* Set the direction to row */
+            border-radius: 8px;
+        }
+
+        nav button {
+            color: #fff; /* White text color for buttons */
+            background-color: #d35400; /* Darker orange background for buttons */
+            border: none;
+            padding: 10px;
+            margin-right: 10px;
+            border-radius: 4px;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 3em; /* Larger font size for title */
+            margin: 0;
+            font-style: italic; /* Italicize the title */
+            color: #3498db; /* Blue color for the title */
+        }
+
+        h2 {
+            font-size: 1.5em;
+            margin: 0;
+            color: #e67e22; /* Orange color for the subtitle */
+        }
+
+        .content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .about-text {
+            text-align: left;
+            max-width: 80%; /* Adjust the width of the paragraph */
+            margin-top: 20px; /* Add margin at the top */
+            color: #fff; /* White text color for the about text */
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="table-of-contents">
+            <button onclick="location.href='index.html'">Home</button>
+            <button onclick="location.href='about.html'">About Us</button>
+            <button onclick="location.href='contact.html'">Contact Information</button>
+            <button onclick="location.href='#'">Previous Projects</button>
+            <button onclick="location.href='#'">Members List</button>
+            <button onclick="location.href='https://discord.gg/MMDChFxDsW'" target="_blank">DevGuideJB</button>
+        </div>
+    </nav>
+    <header>
+        <h1>About CPU</h1>
+    </header>
+    <div class="content">
+        <p class="about-text">The purpose of CPU is the support, encouragement, and furtherance of computer science at SUNY Oneonta. We are a forum for students and faculty to share ideas, concepts, technology, information, and insights related to the field of computer science. While we accept a wide range of topics and discussions, we value the quality of meetings over the number of members.
+        </p>
+        <p class="about-text">We are also a resource for tutoring and lab assistance (through our officers) for the computer science students of SUNY Oneonta. In addition, we support trips to computer science conferences, technology shows, programming contests, and other related events. Moreover, we encourage and fund speakers in the field to visit our campus and give presentations.
+        </p>
+        <p class="about-text">We encourage the design, coding, and promulgation of computer programs, while taking a hard stand against academic dishonesty. Above all, our overriding goal is to educate students in the field of computer science and to have fun while doing it.</p>
+    </div>
+</body>
+</html>

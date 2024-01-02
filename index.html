@@ -1,0 +1,139 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CPU</title>
+    <style>
+        body {
+            background-color: #f5f5f5; /* Light gray background color */
+            color: #333; /* Dark text color */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column; /* Set the direction to column */
+            align-items: center;
+        }
+
+        nav {
+            background-color: #2c3e50; /* Dark blue background color for the navigation */
+            padding: 20px;
+            display: flex;
+            flex-direction: row; /* Set the direction to row */
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+        }
+
+        nav .table-of-contents {
+            background-color: #34495e; /* Slightly lighter blue for the table of contents */
+            border: 2px solid #2c3e50;
+            padding: 10px;
+            text-align: center;
+            margin-bottom: 10px;
+            display: flex;
+            flex-direction: row; /* Set the direction to row */
+            border-radius: 8px;
+        }
+
+        nav button {
+            color: #fff; /* White text color for buttons */
+            background-color: #2980b9; /* Darker blue background for buttons */
+            border: none;
+            padding: 10px;
+            margin-right: 10px;
+            border-radius: 4px;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 3em; /* Larger font size for CPU text */
+            margin: 0;
+            color: #3498db; /* Blue color for the title */
+        }
+
+        h2 {
+            font-size: 1.5em;
+            margin: 0;
+            color: #2c3e50; /* Dark blue color for the subtitle */
+        }
+
+        .content {
+            display: flex;
+            flex-direction: row; /* Set the direction to row */
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .content img {
+            max-width: 40%; /* Adjust the image size as needed */
+            border-radius: 8px;
+            margin: 20px;
+        }
+
+        .welcome-text {
+            text-align: center;
+            font-size: 1.5em; /* Larger font size for the welcome text */
+            max-width: 60%; /* Adjust the width of the paragraph */
+            margin: 20px;
+            color: #333; /* Dark text color for the welcome text */
+        }
+
+        /* New Computer Science News Section */
+        .news-section {
+            background-color: #ecf0f1; /* Light gray background color for the news section */
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .news-subtext {
+            margin-top: 10px;
+            color: #333; /* Dark text color for news subtext */
+            cursor: pointer;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="table-of-contents">
+            <button onclick="location.href='index.html'">Home</button>
+            <button onclick="location.href='about.html'">About Us</button>
+            <button onclick="location.href='contact.html'">Contact Information</button>
+            <button onclick="location.href='projects.html'">Projects</button>
+            <button onclick="location.href='members.html'">Members List</button>
+            <button onclick="location.href='devguidejb.html'" target="_blank">DevGuideJB</button>
+        </div>
+    </nav>
+    <header>
+        <h1>CPU</h1>
+        <h2>Computer Programmers United</h2>
+    </header>
+    <div class="content">
+        <img src="computer_image.png" alt="Computer Image">
+        <p class="welcome-text">Welcome to the official page of Computer Programmers United. Thank you for your interest 😊</p>
+        <img src="coding_image.png" alt="Coding Image">
+    </div>
+
+    <!-- New Computer Science News Section -->
+    <div class="news-section">
+        <h2>Computer Science Links</h2>
+        <p class="news-subtext" onclick="window.location.href='https://www.mtu.edu/cs/what/#:~:text=Computer%20science%20focuses%20on%20the,the%20basis%20of%20all%20software.'">What is Computer Science?</p>
+        <p class="news-subtext" onclick="window.location.href='https://www.sciencedaily.com/news/computers_math/computer_science/'">Computer Science Daily News</p>
+        <p class="news-subtext" onclick="window.location.href='https://discord.com/'">DevGuideJB Discord!</p>
+    </div>
+</body>
+</html>
