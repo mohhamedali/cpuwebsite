@@ -8,31 +8,23 @@
     <title>CPU Spring 2024</title>
     <style>
         body {
-            background-color: #376853; /* Green background color */
-            color: #fff; /* White text color */
+            background-color: #f0f0f0; /* Light gray background color */
+            color: #333; /* Dark text color */
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
             display: flex;
-            flex-direction: row; /* Set the direction to row */
+            flex-direction: column;
             height: 100vh;
         }
 
         nav {
-            background-color: #333; /* Dark background color for the navigation */
+            background-color: #3498db; /* Blue background color for the navigation */
             padding: 20px;
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
             align-items: center;
-            justify-content: flex-start;
-            min-width: 150px; /* Set a minimum width for the navigation */
-        }
-
-        nav .table-of-contents {
-            background-color: rgb(233, 72, 23);
-            border: 2px solid #fff;
-            padding: 10px;
-            text-align: center;
+            justify-content: center;
             margin-bottom: 10px;
         }
 
@@ -41,24 +33,24 @@
             background-color: #555; /* Darker background for buttons */
             border: none;
             padding: 10px;
-            margin-bottom: 10px;
+            margin-right: 10px;
             border-radius: 4px;
             text-align: center;
-            width: 100%;
             cursor: pointer;
         }
 
         header {
             text-align: center;
-            flex: 1; /* Allow the header to take the remaining space */
             padding: 20px;
+            background-color: #3498db; /* Blue background color for the header */
+            color: #fff; /* White text color for the header */
         }
 
         h1 {
-            font-size: 3em; /* Larger font size for title */
+            font-size: 3em;
             margin: 0;
-            font-style: italic; /* Italicize the title */
-            color: #ffd700; /* Gold text color */
+            font-style: italic;
+            color: #ffd700; /* Gold text color for the title */
         }
 
         .content {
@@ -69,32 +61,26 @@
             padding: 20px;
         }
 
-        .about-text {
-            text-align: left;
-            max-width: 80%; /* Adjust the width of the paragraph */
-            margin-top: 20px; /* Add margin at the top */
-            font-size: 1.2em; /* Adjust font size */
-            line-height: 1.6; /* Adjust line height */
-        }
-
         .officers-section,
         .members-section {
-            background-color: #44078a; /* Purple background color */
+            background-color: #ecf0f1; /* Light gray background color */
             padding: 20px;
             border-radius: 8px;
             text-align: center;
             margin-top: 20px;
+            max-width: 70%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add subtle box shadow */
         }
 
         .officers-text,
         .members-text {
             font-size: 1.2em;
-            color: #fff;
+            color: #333; /* Dark text color */
             margin-top: 10px;
         }
 
         .external-link {
-            color: #ffd700; /* Gold color for external links */
+            color: #3498db; /* Blue color for external links */
             text-decoration: underline;
             cursor: pointer;
         }
@@ -103,7 +89,6 @@
 
 <body>
     <nav>
-        <div class="table-of-contents">Table of Contents</div>
         <button onclick="location.href='index.html'">Home</button>
         <button onclick="location.href='about.html'">About Us</button>
         <button onclick="location.href='contact.html'">Contact Information</button>
