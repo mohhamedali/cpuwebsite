@@ -1,0 +1,51 @@
+# CPU - Computer Programmers United
+
+Welcome to the official repository of CPU (Computer Programmers United)!
+
+## Table of Contents
+
+- [About](#about)
+- [Contact Information](#contact-information)
+- [Projects](#projects)
+- [Members List](#members-list)
+- [DevGuideJB](#devguidejb)
+
+## About
+
+The [About](about.html) page provides information about the CPU club at SUNY Oneonta. Learn about our mission, goals, and the vibrant community of computer programmers and enthusiasts.
+
+## Contact Information
+
+The [Contact Information](contact.html) page serves as a hub for reaching out to CPU. Find our email address, LinkedIn profile, and other contact details to connect with us.
+
+## Projects
+
+Explore the [Projects](projects.html) page to discover the exciting projects created by CPU members. This section allows students to upload their work, track project progress, and showcase their programming skills.
+
+## Members List
+
+The [Members List](members.html) page introduces you to the talented individuals who are part of CPU. Learn about our officers, faculty, and fellow students involved in the club.
+
+## DevGuideJB
+
+Join our Discord community on the [DevGuideJB](devguidejb.html) page. Connect with fellow developers, share insights, and engage in discussions related to computer programming.
+
+---
+
+Feel free to explore the various pages and engage with the CPU community. If you're a student, use the Projects section to upload your work and monitor your progress. We encourage contributions and collaboration!
+
+## Contributing
+
+If you'd like to contribute to CPU, follow these steps:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/your-feature-name`).
+3. Make your changes and commit them (`git commit -m 'Add your feature'`).
+4. Push your changes to the branch (`git push origin feature/your-feature-name`).
+5. Open a Pull Request.
+
+We appreciate your contributions!
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
